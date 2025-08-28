@@ -1,0 +1,37 @@
+/*style.css */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+input, button {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#output, #squareResult, #listOutput, #dynamicContent {
+  font-weight: bold;
+  color: #d31d1d;
+}
+
+.toggled {
+  background-color: rgb(23, 185, 235);
+}
